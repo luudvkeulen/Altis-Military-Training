@@ -1,0 +1,36 @@
+disabledAI = true;
+respawn = "BASE";  
+respawndelay = 0;
+respawnDialog = 0;
+corpseLimit = 0;
+corpseRemovalMinTime = 1;
+enableDebugConsole = 2;
+Author = "Jack Miller"; 
+onLoadName = "Altis Military Training"; 
+onLoadMission = "Using adapted script's from other developer's";
+loadScreen = "images\Intro.jpg";
+
+#include "VAS\menu.hpp"
+#include "VVS\menu.h"
+#include "menu\MasterHandler.hpp"
+#define CT_STATIC           0
+#define CT_MAP_MAIN         101
+
+// Static styles
+#define ST_CENTER         0x02
+#define ST_PICTURE        0x30
+
+class RscTitles 
+{
+  #include "UI\defines.hpp"  
+};
+
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+	#include "VVS\Functions.h"
+};
+class Header
+{
+gameType = Military Trainig; 
+};

@@ -1,0 +1,15 @@
+call compile preprocessFile "UI\HUD.sqf";
+[] spawn ICE_HUD; 
+definzone = false;
+attinzone = false;
+TowerRushStarted = false;
+readycount = 0;
+SpawnGroup = group IndepGroup;
+AttackGroup = group AttGroup;
+DefenceGroup = group DefGroup;
+execvm "jump.sqf";
+publicVariable "readycount";
+publicVariable "definzone";
+publicVariable "attinzone";
+publicVariable "TowerRushEnded";
+publicVariable "TowerRushStarted";

@@ -1,0 +1,11 @@
+player setPos (getPos player vectorAdd [0,0,4.3]);
+[player] join SpawnGroup;
+removeAllWeapons player;
+removeBackpack player;
+removeGoggles player;
+removeHeadgear player;
+removeAllItems player;
+removeVest player;
+player enableFatigue false;
+removeAllActions player;
+player removeEventHandler ["Respawn", 0];
