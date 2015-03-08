@@ -15,7 +15,7 @@ FNC_HIDE = { (_this select 0) hideObject (_this select 1); };
 publicVariable "TowerRushStarted";
 publicVariable "readycount";
 {
-  if(((group _x) == (group AttGroup)) || ((group _x) == (group DefGroup)))then
+  if(((group _x) == AttackGroup) || ((group _x) == DefenceGroup))then
   {
   	_x setDamage 1;
   }

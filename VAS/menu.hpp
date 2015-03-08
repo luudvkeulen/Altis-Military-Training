@@ -378,7 +378,7 @@ class VAS_Diag {
 			h = (1 / 25);
 		};
 
-		class ButtonSaveGear : VAS_RscButtonMenu {
+/* 		class ButtonSaveGear : VAS_RscButtonMenu {
 			idc = -1;
 			text = "$STR_VAS_Main_btnSave";
 			onButtonClick = "createDialog ""VAS_Save_Diag"";";
@@ -386,9 +386,9 @@ class VAS_Diag {
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
-		};
+		}; */
 		
-		class ButtonLoadGear : VAS_RscButtonMenu 
+/* 		class ButtonLoadGear : VAS_RscButtonMenu 
 		{
 			idc = -1;
 			text = "$STR_VAS_Main_btnLoad";
@@ -397,9 +397,9 @@ class VAS_Diag {
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
-		};
+		}; */
 		
-		class ButtonRemoveAll : VAS_RscButtonMenu {
+/* 		class ButtonRemoveAll : VAS_RscButtonMenu {
 			idc = -1;
 			text = "$STR_VAS_Main_btnRemoveAll";
 			onButtonClick = "[true] spawn VAS_fnc_removeGear;";
@@ -407,7 +407,7 @@ class VAS_Diag {
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
-		};
+		}; */
 	};
 };
 

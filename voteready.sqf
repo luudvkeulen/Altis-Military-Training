@@ -9,7 +9,7 @@ if(attinzone && definzone) then
 	removeAllActions player;
 	if(_cnt == readycount) then
 	{
-		["TowerRush: Match starting!","systemChat",nil,true] call BIS_fnc_MP;
+		["TowerRush: Match starting in:","systemChat",nil,true] call BIS_fnc_MP;
 		sleep 1;
 		["TowerRush: 3","systemChat",nil,true] call BIS_fnc_MP;
 		sleep 1;

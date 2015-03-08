@@ -19,7 +19,7 @@ dokeyDown={
      
     player setvariable ["jump",false];// DISABLE JUMP
     
-   _height = 5;
+   _height = 3.82;
 
 // MAKE JUMP IN RIGHT DIRECTION
 _vel = velocity player;

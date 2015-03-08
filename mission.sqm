@@ -841,7 +841,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={791.29187,-0.20297404,30235.781};
+					position[]={8055.6982,0.068830594,25254.631};
 					offsetY=10000;
 					special="NONE";
 					id=30;
@@ -864,7 +864,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={418.71341,-0.14079577,28810.957};
+					position[]={16646.434,7.4124222,13478.5};
 					offsetY=10000;
 					special="NONE";
 					id=31;
@@ -887,7 +887,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2402.4026,0.12063625,30051.127};
+					position[]={16714.977,13.063314,13599.371};
 					offsetY=10000;
 					special="NONE";
 					id=32;

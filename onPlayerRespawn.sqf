@@ -1,1 +1,1 @@
-execVM "gearflush.sqf";
+[] execVM "gearflush.sqf";
